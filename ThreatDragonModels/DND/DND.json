@@ -63,7 +63,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "1c0842bc-73bc-4e34-9470-1f3bbca96989"
+                "1d2503fa-908f-4484-b3b7-6f90c88c2d85"
               ],
               "containedElements": [
                 "ed737b0a-6ac2-4756-bfb4-f598c98f7f9c",
@@ -589,6 +589,60 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "5ecbcf38-e4c4-4317-8be7-f2e183306a95"
+              ]
+            },
+            "labels": [
+              "Auth Request"
+            ],
+            "id": "1d2503fa-908f-4484-b3b7-6f90c88c2d85",
+            "source": {
+              "x": 638,
+              "y": 230
+            },
+            "target": {
+              "cell": "550056fb-0e38-4b20-ac21-aff10f2d6c17",
+              "port": "d40efdf0-b58e-473b-a499-c3bdeca7f9f7"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 120
+              }
+            ]
+          },
+          {
             "position": {
               "x": 188,
               "y": 240
@@ -830,55 +884,6 @@
                 "y": 260
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 16,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "5ecbcf38-e4c4-4317-8be7-f2e183306a95"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "1c0842bc-73bc-4e34-9470-1f3bbca96989",
-            "source": {
-              "x": 640,
-              "y": 230
-            },
-            "target": {
-              "cell": "550056fb-0e38-4b20-ac21-aff10f2d6c17",
-              "port": "d40efdf0-b58e-473b-a499-c3bdeca7f9f7"
-            },
-            "vertices": []
           }
         ],
         "description": "Identifying DFD syntax and logic errors"

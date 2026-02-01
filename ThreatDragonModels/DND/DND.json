@@ -2622,12 +2622,6 @@
               "x": 1100,
               "y": 250
             },
-            "vertices": [
-              {
-                "x": 1370,
-                "y": 130
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -2637,7 +2631,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 1370,
+                "y": 130
+              }
+            ]
           },
           {
             "position": {

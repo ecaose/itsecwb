@@ -778,7 +778,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Confirmation response",
+              "name": "Operation response",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -794,7 +794,7 @@
               ]
             },
             "labels": [
-              "Confirmation response"
+              "Operation response"
             ],
             "id": "aa90736d-f99c-415b-a5f9-fa5b201ea988",
             "source": {

@@ -2395,7 +2395,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verified",
+              "name": "Auth verification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2411,7 +2411,7 @@
               ]
             },
             "labels": [
-              "Verified"
+              "Auth verification"
             ],
             "id": "307c2f45-93ed-4be3-b1b1-8309c50173d0",
             "source": {
@@ -2426,6 +2426,10 @@
               {
                 "x": 1120,
                 "y": 50
+              },
+              {
+                "x": 1070,
+                "y": -40
               }
             ]
           },
@@ -2507,7 +2511,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert query \nwith feedback \ncomments",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2521,7 +2525,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert query \nwith feedback \ncomments"
+              "Verified"
             ],
             "id": "7e47c997-9657-4f7c-baa0-f995f03f82f8",
             "source": {
@@ -2554,7 +2558,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Success\n = 1",
+              "name": "Insert query with feedback comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2570,7 +2574,7 @@
               ]
             },
             "labels": [
-              "Success\n = 1"
+              "Insert query with feedback comments"
             ],
             "id": "e59fa2c1-9194-4d19-aade-fa259cd81f18",
             "source": {
@@ -2583,8 +2587,12 @@
             },
             "vertices": [
               {
-                "x": 1300,
-                "y": 90
+                "x": 1250,
+                "y": 160
+              },
+              {
+                "x": 1310,
+                "y": 80
               }
             ]
           },
@@ -2608,7 +2616,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Auth verification",
+              "name": "Success = 1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2622,7 +2630,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Auth verification"
+              "Success = 1"
             ],
             "id": "44b9a26b-d1dd-4edc-8e7d-6be4235b4d3a",
             "source": {
@@ -2632,16 +2640,6 @@
             "target": {
               "x": 1100,
               "y": 250
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             },
             "vertices": [
               {
@@ -2789,13 +2787,6 @@
               "type": "tm.Text",
               "name": "Trust boundary",
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {

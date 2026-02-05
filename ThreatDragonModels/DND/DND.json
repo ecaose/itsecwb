@@ -2073,7 +2073,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User lookup request",
+              "name": "Verifies the privileges",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2087,7 +2087,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User lookup request"
+              "Verifies the privileges"
             ],
             "id": "e676f39e-bbc0-406a-a75b-2cb7a7244c0d",
             "source": {
@@ -2129,7 +2129,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Credentials",
+              "name": "User sends user credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2145,7 +2145,7 @@
               ]
             },
             "labels": [
-              "Credentials"
+              "User sends user credentials"
             ],
             "id": "147d3b97-ab40-4e9a-aadb-22c77897a598",
             "source": {
@@ -2184,7 +2184,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Feedback comment",
+              "name": "Insert Feedback comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2232,7 +2232,7 @@
               }
             },
             "labels": [
-              "Feedback comment"
+              "Insert Feedback comments"
             ],
             "id": "88b9def2-1a6f-4495-a419-082a1bd42d2d",
             "source": {
@@ -2278,7 +2278,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Operation response",
+              "name": "Feedback comments saved",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2294,7 +2294,7 @@
               ]
             },
             "labels": [
-              "Operation response"
+              "Feedback comments saved"
             ],
             "id": "aa90736d-f99c-415b-a5f9-fa5b201ea988",
             "source": {
@@ -2340,7 +2340,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Authentication result",
+              "name": "User is Authenticated",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2357,7 +2357,7 @@
               ]
             },
             "labels": [
-              "Authentication result"
+              "User is Authenticated"
             ],
             "id": "14508879-8e0a-4822-9e16-af7520c6aa9c",
             "source": {
@@ -2395,7 +2395,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Authentication request",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2411,7 +2411,7 @@
               ]
             },
             "labels": [
-              "Authentication request"
+              "Verified"
             ],
             "id": "307c2f45-93ed-4be3-b1b1-8309c50173d0",
             "source": {
@@ -2449,7 +2449,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Auth token",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2465,7 +2465,7 @@
               ]
             },
             "labels": [
-              "Auth token"
+              "Verified"
             ],
             "id": "8d690cc5-67f4-4502-9f86-77bf3fdbfbd6",
             "source": {
@@ -2507,7 +2507,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User \nrecord",
+              "name": "Insert query with feedback comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2521,7 +2521,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User \nrecord"
+              "Insert query with feedback comments"
             ],
             "id": "7e47c997-9657-4f7c-baa0-f995f03f82f8",
             "source": {
@@ -2554,7 +2554,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert feedback record",
+              "name": "Success\n = 1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2570,7 +2570,7 @@
               ]
             },
             "labels": [
-              "Insert feedback record"
+              "Success\n = 1"
             ],
             "id": "e59fa2c1-9194-4d19-aade-fa259cd81f18",
             "source": {
@@ -2608,7 +2608,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Status",
+              "name": "Auth verification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2622,7 +2622,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert Status"
+              "Auth verification"
             ],
             "id": "44b9a26b-d1dd-4edc-8e7d-6be4235b4d3a",
             "source": {
@@ -2778,7 +2778,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Internal Services Zone"
+                "text": "Trust boundary"
               }
             },
             "visible": true,
@@ -2787,7 +2787,7 @@
             "id": "341d0a6e-0ca6-495f-9ac2-1cb5246768fa",
             "data": {
               "type": "tm.Text",
-              "name": "Internal Services Zone",
+              "name": "Trust boundary",
               "hasOpenThreats": false
             },
             "tools": {
@@ -2809,7 +2809,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Client Zone"
+                "text": "Trust boundary"
               }
             },
             "visible": true,
@@ -2818,7 +2818,7 @@
             "id": "e323cde0-dd7c-4480-b5f7-32eb0f03de00",
             "data": {
               "type": "tm.Text",
-              "name": "Client Zone",
+              "name": "Trust boundary",
               "hasOpenThreats": false
             }
           },
@@ -2833,7 +2833,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Application Zone"
+                "text": "Trust boundary"
               }
             },
             "visible": true,
@@ -2842,7 +2842,7 @@
             "id": "2b93e695-e6f9-4f44-83fe-f981e7de4a44",
             "data": {
               "type": "tm.Text",
-              "name": "Application Zone",
+              "name": "Trust boundary",
               "hasOpenThreats": false
             }
           }

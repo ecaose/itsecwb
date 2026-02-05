@@ -2507,7 +2507,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert query with feedback comments",
+              "name": "Insert query \nwith feedback \ncomments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2521,7 +2521,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert query with feedback comments"
+              "Insert query \nwith feedback \ncomments"
             ],
             "id": "7e47c997-9657-4f7c-baa0-f995f03f82f8",
             "source": {

@@ -1297,13 +1297,6 @@
               "type": "tm.Text",
               "name": "Trust boundary",
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {

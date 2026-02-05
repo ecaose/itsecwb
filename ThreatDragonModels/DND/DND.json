@@ -614,7 +614,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User lookup request",
+              "name": "Verifies the privileges",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -628,7 +628,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User lookup request"
+              "Verifies the privileges"
             ],
             "id": "e676f39e-bbc0-406a-a75b-2cb7a7244c0d",
             "source": {
@@ -1007,7 +1007,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User \nrecord",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1021,7 +1021,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User \nrecord"
+              "Verified"
             ],
             "id": "7e47c997-9657-4f7c-baa0-f995f03f82f8",
             "source": {
@@ -1054,7 +1054,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert feedback record",
+              "name": "Insert query with feedback comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1070,7 +1070,7 @@
               ]
             },
             "labels": [
-              "Insert feedback record"
+              "Insert query with feedback comments"
             ],
             "id": "e59fa2c1-9194-4d19-aade-fa259cd81f18",
             "source": {
@@ -1082,6 +1082,10 @@
               "port": "e64f4771-d6dc-4368-b35f-44879d4975f6"
             },
             "vertices": [
+              {
+                "x": 1280,
+                "y": 110
+              },
               {
                 "x": 1300,
                 "y": 90
@@ -1108,7 +1112,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Status",
+              "name": "Success\n = 1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1122,20 +1126,20 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert Status"
+              "Success\n = 1"
             ],
             "id": "44b9a26b-d1dd-4edc-8e7d-6be4235b4d3a",
             "source": {
-              "x": 1280,
+              "x": 1290,
               "y": -124
             },
             "target": {
-              "x": 1100,
+              "x": 1110,
               "y": 250
             },
             "vertices": [
               {
-                "x": 1370,
+                "x": 1380,
                 "y": 130
               }
             ]
@@ -1279,13 +1283,6 @@
               "type": "tm.Text",
               "name": "Internal Services Zone",
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
